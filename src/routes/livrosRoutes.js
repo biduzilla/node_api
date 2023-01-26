@@ -11,4 +11,6 @@ router.put('/livros/:id', LivroController.atualizarLivro)
 
 router.get('/livros/:id',LivroController.obterLivroId)
 
+router.delete('/livros/:id',LivroController.excluirLivro)
+
 export default router;
